@@ -1,0 +1,38 @@
+# ==============================
+# Node / React (task-crud)
+# ==============================
+
+# Dependencias
+task-crud/node_modules/
+task-crud/.pnp/
+task-crud/.pnp.js
+
+# Build
+task-crud/build/
+task-crud/dist/
+task-crud/.next/
+
+# Logs
+task-crud/npm-debug.log*
+task-crud/yarn-debug.log*
+task-crud/yarn-error.log*
+
+# Entorno
+task-crud/.env
+
+# ==============================
+# .NET / Visual Studio (task-ApiRest/PruebaApi)
+# ==============================
+
+# Build
+task-ApiRest/PruebaApi/bin/
+task-ApiRest/PruebaApi/obj/
+
+# Visual Studio Code
+task-ApiRest/PruebaApi/.vscode/
+task-crud/.vscode/
+
+# Logs
+task-ApiRest/PruebaApi/logs/
+*.log
+
