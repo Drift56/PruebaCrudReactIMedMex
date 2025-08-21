@@ -1,0 +1,33 @@
+@PruebaApi_HostAddress = http://localhost:5115
+
+GET {{PruebaApi_HostAddress}}/api/Tareas/2
+Accept: application/json
+
+###
+
+POST {{PruebaApi_HostAddress}}/api/Tareas
+Content-Type: application/json
+Accept: application/json
+
+{
+    "Titulo" : "Programar",
+    "EstadoId": 1,
+    "Asignado" : "Moises Simon Ramirez"
+}
+
+###
+
+PUT {{PruebaApi_HostAddress}}/api/Tareas
+Content-Type: application/json
+Accept: application/json
+
+{
+    "TareaId": 1,
+    "Titulo" : "Caminar",
+    "EstadoId": 1
+}
+###
+
+Delete {{PruebaApi_HostAddress}}/api/Tareas/1
+Accept: application/json
+###
